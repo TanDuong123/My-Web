@@ -1,0 +1,557 @@
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+    margin: 0;
+}
+
+body {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #fff;
+}
+
+img:hover {
+    box-shadow: 2 2 2 orangered;
+}
+
+a {
+    color: #228468;
+    text-decoration: none;
+}
+
+.nav {
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+ul .navbar-nav {
+    float: none;
+    margin-top: 20px;
+}
+
+ul.navbar-nav>li {
+    position: inherit;
+    font-family: euclid, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 100%;
+}
+
+.navbar-nav>li {
+    float: left;
+}
+
+.nav>li {
+    position: relative;
+    display: block;
+}
+
+.dropdown {
+    position: absolute;
+}
+
+ul.navbar-nav>li>a {
+    padding: 13px 7px 37px 7px;
+    color: #333;
+    text-transform: uppercase;
+}
+
+.navbar-nav>li>a {
+    padding-top: 14.5px;
+    padding-bottom: 14.5px;
+    line-height: 21px;
+}
+
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+
+.pull-right {
+    float: right!important;
+}
+
+.visible-lg {
+    display: block!important;
+}
+
+.class {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2px;
+    font-size: 20px;
+}
+
+header {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-top: 0px;
+    width: 100%;
+}
+
+.article {
+    text-align: center;
+    min-height: 300px;
+    width: 250px;
+    box-shadow: 1px 1px 1px 1px gray;
+    font-size: 20px;
+    float: left;
+}
+
+.article img {
+    height: 100%;
+    width: 250px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.aside img {
+    height: 100%;
+    width: 250px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.aside {
+    text-align: center;
+    min-height: 300px;
+    width: 250px;
+    box-shadow: 1px 1px 1px 1px gray;
+    font-size: 20px;
+    float: right;
+}
+
+.left {
+    float: left;
+    width: 550px;
+}
+
+.right {
+    text-align: center;
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px gray;
+    float: right;
+}
+
+.right .trai {
+    float: left;
+    font-size: small;
+}
+
+.right .phai {
+    font-size: small;
+    text-align: left;
+}
+
+.tren {
+    margin: 10px;
+    padding-bottom: 10px;
+}
+
+.class nav {
+    height: 200px;
+    line-height: 40px;
+    background-color: orangered;
+    color: white;
+    text-align: center;
+    font-variant: small-caps;
+    padding-right: 20px;
+}
+
+.memu {
+    padding: 1px;
+    margin: 1px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px orangered;
+    list-style: none;
+}
+
+.menu>ul>li {
+    display: block;
+    position: relative;
+}
+
+.menu>ul>li:hover>ul {
+    display: block;
+    right: 5px;
+}
+
+.menu ul ul {
+    position: absolute;
+    display: none;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border-radius: 3 px;
+    width: 200px;
+    background-color: white;
+    box-shadow: 0 0 1px gray;
+}
+
+.menu ul ul a {
+    display: block;
+    line-height: 30 px;
+    color: orangered;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+}
+
+.menu ul ul a:hover {
+    background-color: orangered;
+    color: white;
+}
+
+.menu>ul>li>a {
+    display: block;
+}
+
+.menu>ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border-radius: 3px;
+    background-color: orangered;
+    text-align: center;
+}
+
+.menu>ul>li>a {
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    padding: 0 10px;
+    color: white;
+    line-height: 40px;
+}
+
+.menu>ul>li>a:hover {
+    color: yellow;
+}
+
+.top-right {
+    Position: absolute;
+    Top: 75px;
+    Right: 25px;
+    Border-bottom-left-radius: 30px;
+}
+
+header ul.menu {
+    position: relative;
+    float: left;
+    line-height: 45px;
+    font-size: 14px;
+    font-variant: small-caps;
+    height: 10px;
+    display: block;
+}
+
+header ul.menu a {
+    position: relative;
+    color: black;
+    float: right;
+    line-height: 20px;
+    text-decoration: none;
+    padding: 0 8px;
+    font-size: 50px;
+}
+
+header ul.menu a:hover {
+    text-decoration: underline;
+    color: yellow;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.header3 {
+    position: relative;
+    width: 100%;
+    height: 25%;
+    display: flex;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.header3 img {
+    height: 400px;
+    width: 100%;
+}
+
+.carousel-caption h3 {
+    color: white;
+}
+
+h1:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+header nav {
+    width: 100%;
+}
+
+.footer1 {
+    background-color: whitesmoke;
+    text-align: left;
+    font-variant: small-caps;
+    clear: both;
+    min-height: 200px;
+    width: 100%;
+}
+
+.form {
+    float: left;
+}
+
+.slide {
+    float: right;
+    width: 220px;
+}
+
+.DEALERSEARCH {
+    position: absolute;
+    padding-left: 300px;
+    padding-top: 5px;
+}
+
+.NEWSLETER {
+    padding-left: 50px;
+    padding-top: 5px;
+    float: right;
+}
+
+.DEALERSEARCH select {
+    height: 20px;
+    width: 200px;
+}
+
+.NEWSLETER input {
+    height: 20px;
+    width: 200px;
+}
+
+.button {
+    padding-top: 8px;
+}
+
+.button button {
+    width: 200px;
+    background-color: white;
+    height: 20px;
+    color: #228468;
+    border: 1px solid #228468;
+}
+
+button:hover {
+    background-color: green;
+}
+
+.footer2 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 50px 100px;
+    background: rgb(46, 45, 45);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer2 .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 1500px;
+}
+
+.footer2 .container .noi-dung {
+    margin-right: 20px;
+}
+
+.footer2 .container .noi-dung.about {
+    width: 20%;
+}
+
+.footer2 .container .noi-dung.about h2 {
+    position: relative;
+    color: #228468;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.footer2 .container .noi-dung.about p {
+    color: #999;
+}
+
+.social-icon {
+    margin-top: 20px;
+    display: flex;
+}
+
+.social-icon li {
+    list-style: none;
+}
+
+.social-icon li a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.social-icon li a:hover {
+    background: white;
+}
+
+.social-icon li a .fa {
+    color: #fff;
+    font-size: 20px;
+}
+
+.links h2 {
+    position: relative;
+    color: #228468;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.links {
+    position: relative;
+    width: 20%;
+}
+
+.links ul li {
+    list-style: none;
+}
+
+.links ul li a {
+    color: #999;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.links ul li a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.contact h2 {
+    position: relative;
+    color: #228468;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.contact {
+    width: calc(35% - 60px);
+    margin-right: 0 !important;
+}
+
+.contact .info {
+    position: relative;
+}
+
+.contact .info li {
+    display: flex;
+}
+
+.contact .info li a:nth-child(1) {
+    color: #999;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.contact .info li a {
+    color: rgb(67, 68, 68);
+}
+
+.contact .info li a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.farm {
+    width: 20%;
+    position: relative;
+}
+
+.farm h2 {
+    color: #228468;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.farm ul li {
+    list-style: none;
+}
+
+.farm ul li a {
+    color: #999;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.farm ul li a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.cuoi {
+    width: 100%;
+    color: #999;
+    background-color: #222;
+    height: 30px;
+}
+
+.header3 .btn_right {
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    z-index: 1000;
+    font-size: 70px;
+}
+
+.header3>i:hover {
+    cursor: pointer;
+}
+
+.header3 .btn_left {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    z-index: 1000;
+    font-size: 70px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #228468;
+}

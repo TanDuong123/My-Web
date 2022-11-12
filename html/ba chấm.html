@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Responsive Drop-down Menu Bar</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/CSS/bacham.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <!-- <link rel="stylesheet" href="file:///E:/fontawesome/css/all.css"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src="file:///E:/jquery.js"></script> -->
+		<!--  -->
+  </head>
+  <body>
+    <nav>
+      <div class="logo">Karlothanh</div>
+      <label for="btn" class="icon">
+        <span class="fa fa-bars"></span>
+      </label>
+      <input type="checkbox" id="btn">
+      <ul>
+        <li><a href="#">Trang chủ</a></li>
+        <li>
+          <label for="btn-1" class="show">Dịch vụ +</label>
+          <a href="#">Dịch vụ</a>
+          <input type="checkbox" id="btn-1">
+          <ul>
+            <li><a href="#">Check quy hoạch</a></li>
+            <li><a href="#">Xây dựng sửa chữa</a></li>
+          </ul>
+        </li>
+        <li>
+          <label for="btn-2" class="show">Sản phẩm +</label>
+          <a href="#">Sản phẩm</a>
+          <input type="checkbox" id="btn-2">
+          <ul>
+            <li><a href="#">Nhà ở</a></li>
+            <li><a href="#">Nhà trọ</a></li>
+            <li>
+              <label for="btn-3" class="show">More +</label>
+              <a href="#">More <span class="fa fa-plus"></span></a>
+              <input type="checkbox" id="btn-3">
+              <ul>
+                <li><a href="#">Đất mặt tiền</a></li>
+                <li><a href="#">Đất thổ cư</a></li>
+                <li><a href="#">Đất lớn</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li><a href="#">Giới thiệu</a></li>
+        <li><a href="#">Liên hệ</a></li>
+      </ul>
+    </nav>
+    <div class="main">
+      <img src="/Img/csm_DSC_1416_-_2048px_7da4131548.jpg" alt="">
+    </div>
+    <!-- <script>
+      $('.icon').click(function(){
+        $('span').toggleClass("cancel");
+      });
+    </script> -->
+
+
+  </body>
+</html>
